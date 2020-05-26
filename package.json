@@ -1,0 +1,20 @@
+{
+  "name": "next-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export && cloudbase hosting:deploy out /"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "^1.1.1",
+    "@zeit/next-less": "^1.0.1",
+    "less": "^3.11.2",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1"
+  }
+}
